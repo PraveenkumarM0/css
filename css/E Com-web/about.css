@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    font-family: 'Courier New', Courier, ;
+    
+}
+
+body{
+  background: radial-gradient(#fff,#ffd6d6);
+
+}
+
+
+
+
+.clearfix {
+    display: flex;
+    border: 0px solid;
+    width: 70%;
+    left: 15%;
+    padding: 4px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: #f2f2f2;
+    position: relative;
+    top: 50px;
+    align-items: center;
+    /* left: 5%; */
+    /* right: 1px;  */
+  }
+  
+  /* .img2 {
+    float: right ;
+    right: 70%;
+  }
+   */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .clearfix h3{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    left: 35px; 
+  }
+
+  h1{
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+  }
+
+  .navbar{
+    align-items: center;
+    padding: 20px;  
+    display: flex;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+    position: absolute;
+    top: 1%;
+    left: 0%;
+    right: 3%;
+  
+    background: fixed;
+}
+.logo{
+    position: absolute;
+    top: 1%;
+    left: 3%;
+    right: 0%;
+
+
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right:20px ; 
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+
+p{
+    columns: #555;
+}
